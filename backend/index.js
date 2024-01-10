@@ -21,7 +21,7 @@ app.use(cors())
 const port = 5000
 app.use(cors(
   {
-  origin: ["https://i-notebook-backend-puce.vercel.app"], 
+  origin: ["https://i-notebook-frontend-ten.vercel.app/"], 
   methods: ["POST", "GET"],
   credentials: true
   }
