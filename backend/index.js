@@ -19,13 +19,13 @@ var app = express()
 
 app.use(cors())
 const port = 5000
-app.use(cors(
-  {
-  origin: ["https://i-notebook-frontend-ten.vercel.app/"], 
-  methods: ["POST", "GET"],
-  credentials: true
-  }
-));
+// app.use(cors(
+//   {
+//   origin: ["https://i-notebook-frontend-ten.vercel.app/"], 
+//   methods: ["POST", "GET"],
+//   credentials: true
+//   }
+// ));
     
     
 app.use(express.json())
