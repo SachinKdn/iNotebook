@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import {Link, useNavigate} from 'react-router-dom';
 const Signup = (props) => {
-    const host = "http://localhost:5000"
+    // const host = "http://localhost:5000"
+    const host = "https://i-notebook-backend-puce.vercel.app"
     const [credentials, setCredentials] = useState({username: "",email: "", password: "" , cpassword: ""})
     
     let navigate = useNavigate();
